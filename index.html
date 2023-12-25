@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce0ff88187.js"></script> 
+</head>
+<body>
+    <!-- Home -->
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-w"></i>
+                    <div class="logo-text">Web dev Rull</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="https://saweria.co/WDR1">Gift</a></li>
+                        <li><a href="mailto:programminguser51@gmail.com">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container" id="home">
+                <div class="hero-pic">
+                    <img src="img1.jpg" alt="">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="">Fronted Developer</span></h5>
+                    <h1>Web dev Rull</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus officia cumque sint!</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Help Me</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section -->
+    <div class="container2">
+        <div class="service-wrapper">
+            <div class="service">
+                <h1>Our Service<span></span></h1>
+                <div class="cards">
+                    <div class="card">
+                        <i class="fa-brands fa-chromecast"></i>
+                        <h2>Business Strategy</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas officiis expedita vero fugit laudantium animi eius voluptatum veniam excepturi.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h2>Website Development</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas officiis expedita vero fugit laudantium animi eius voluptatum veniam excepturi.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h2>Marketing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas officiis expedita vero fugit laudantium animi eius voluptatum veniam excepturi.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-desktop"></i>
+                        <h2>Marketing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas officiis expedita vero fugit laudantium animi eius voluptatum veniam excepturi.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Marketing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas officiis expedita vero fugit laudantium animi eius voluptatum veniam excepturi.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Marketing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas officiis expedita vero fugit laudantium animi eius voluptatum veniam excepturi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fa-solid fa-home"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+        </div>
+        <div class="credit">
+            <p>Created by <a href="#">Rulzz </a>&copy; 2023</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
+</body>
+</html>
