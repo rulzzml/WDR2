@@ -63,8 +63,9 @@ nav .togglebtn{
     width: 35px;
     height: 35px;
     position: absolute;
-    top: 45px;
-    right: 3%;
+    top: 85px;
+    /* right: 18%; */
+    left: 72%;
     cursor: pointer;
     display: none;
 }
@@ -187,7 +188,8 @@ nav .navlinks li a{
         top: 110px;
         right: -100%;
         bottom: 0;
-        width: 60%;
+        width: 70%;
+        
         height: 100vh;
         background-color: #222;
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
@@ -201,14 +203,14 @@ nav .navlinks li a{
     nav .navlinks li a{
         display: block;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
         font-size: 20px;
     }
     nav .navlinks.open{
-        right: -15%;
+        right: -25%;
     }
     .container .hero-pic{
-        margin-top: 20%;
+        margin-top: 30%;
     }
 }
 @media(max-width: 768px){
@@ -218,6 +220,9 @@ nav .navlinks li a{
     }
     .hero-text{
         padding: 40px 0px;
+    }
+    .hero-text p{
+        width: 65%;
     }
 }
 
@@ -267,7 +272,7 @@ nav .navlinks li a{
     width: 8px;
     border-radius: 50%;
     background-color: #72e2ae;
-    animation: anim 5s linear infinite;
+    animation: anim 2.5s linear infinite;
 }
 @keyframes anim {
     95%{
@@ -275,7 +280,7 @@ nav .navlinks li a{
     }
     100%{
         opacity: 0;
-        left: 88%;
+        left: 90%;
     }
 }
 .cards{
@@ -351,7 +356,7 @@ nav .navlinks li a{
         grid-template-columns: repeat(1,1fr);
     }
     .service h1{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -359,6 +364,7 @@ nav .navlinks li a{
 
 footer{
     background-color: #007ced;
+    width: 100%;
     text-align: center;
     padding: 1rem 0 3rem;
 }
